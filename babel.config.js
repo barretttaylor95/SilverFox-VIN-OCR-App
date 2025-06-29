@@ -1,28 +1,3 @@
-{
-  "extends": "@tsconfig/react-native/tsconfig.json",
-  "compilerOptions": {
-    "target": "es2017",
-    "lib": ["es2017", "es2015", "dom"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
-  },
-  "include": [
-    "src/**/*",
-    "App.tsx",
-    "index.js"
-  ],
-  "exclude": [
-    "node_modules",
-    "android",
-    "ios"
-  ]
-}
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+};

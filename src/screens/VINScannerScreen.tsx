@@ -16,7 +16,7 @@ export const VINScannerScreen: React.FC<VINScannerScreenProps> = ({ navigation }
     // This will be replaced with actual camera functionality in Phase 2
     navigation.navigate('VINDetected', {
       vin: '1HGBH41JXMN109186',
-      confidence: 0.95,
+      confidence: 95,
     });
   };
 
